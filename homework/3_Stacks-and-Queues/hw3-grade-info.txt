@@ -1,0 +1,3 @@
+Homework 3 83/100
+
+[-2] ArrayQueue enqueue() does not reset front to 0 after resizing, causing data to be added in weird places in subsequent enqueues; [-11] backingArray is not initiated in the ArrayStack constructor, causing methods that use backingArray to throw NPE; [-4] LinkedQueue does not set tail to null when removing the last element in queue

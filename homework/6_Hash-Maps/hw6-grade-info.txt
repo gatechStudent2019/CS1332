@@ -1,0 +1,3 @@
+Homework 6 92/100
+
+[-5] Efficiency: resizeBackingTable uses put, which iterates through the chain to find duplicates, but this is unnessecary in resize; [-3] Didn't use constructor chaining - Good job! ╰( ･ ᗜ ･ )╯

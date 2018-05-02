@@ -1,0 +1,3 @@
+Homework 2 71/100
+
+[-5] clear sets head to node with null data instead of just null; [-1] removeAtIndex fails for size == 1; [-2] removeFromBack does not remove when size is 1; [-2] removeFromBack returns data from head; [-2] removeFromFront does not remove when size is 1; [-1] removeLastOccurance does not remove when size is 1 (calls removeAtIndex which fails); [-6] some removeLastOccurance tests fail because comparison uses == instead of .equals(); [-5] RemoveLastOccurance itterates twice over list: once to find data than again in removeAtIndex call; [-5] toArray calls get(I) for each index, which itterates over the list for every element to be removed, executing in O(n^2) instead of O(n)

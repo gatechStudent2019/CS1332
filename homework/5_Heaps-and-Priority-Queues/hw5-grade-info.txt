@@ -1,0 +1,3 @@
+Homework 5 95/100
+
+[-5] remove() is inefficient due to not immediately terminating downheap when the heap becomes valid (when arr[index] > arr[largerChild]). Good job!

@@ -1,0 +1,3 @@
+Homework 8 93/100
+
+[-5] in quicksort, you use inclusive bounds for left and right, but the formula you use for the random pivot assumes an exclusive right bound. So you end up chosing different pivots, and some comparison counts are too high; [-1] radix fails for array of length 0. Attempts to index out of bounds; [-1] lsdRaxix does not account for integer min when determining max number of digits - Good job! ┐(・。・┐) ♪

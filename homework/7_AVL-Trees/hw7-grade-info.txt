@@ -1,0 +1,3 @@
+Homework 7 66/100
+
+[-3] equals() not implemented; [-2] remove() uses predecessor, not successor; [-2] getSecondLargest() does not handle case where largest element has a left child (in which case 2nd largest is the left child, not the parent); [-10] Checkstyle; [-5] remove() is inefficient due to traversing parts of tree twice when finding & removing successor (note that you're actually finding the predecessor); [-5] inefficiency for non-implemented method(s); [-5] height() is inefficient (should be just returning root's height saved in node, which is O(1)); [-2] getSecondLargest() not implemented recursively 

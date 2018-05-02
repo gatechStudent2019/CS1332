@@ -1,0 +1,3 @@
+Homework 4 85/100
+
+[-6] Some remove tests fail because remove returns data passed in instead of data found in tree (if they .equals each other but are different objects); [-5] Efficiency: Removing the predecessor is done by traversing down from current node to find it, then again to remove it; [-4] Contains throws exception instead of returning false when data is not found 
